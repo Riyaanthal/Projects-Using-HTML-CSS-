@@ -1,0 +1,64 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Profile Card Styling */
+  .profile-card {
+    background: white;
+    width: 300px;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Name, Title, and Description */
+  h1 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .title {
+    font-size: 1rem;
+    color: #6a11cb;
+    margin: 0.5rem 0;
+  }
+  
+  p {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+  
+  /* Social Links */
+  .social-links {
+    margin-top: 1rem;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: white;
+    background-color: #6a11cb;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin: 0 5px;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    background-color: #2575fc;
+  }
